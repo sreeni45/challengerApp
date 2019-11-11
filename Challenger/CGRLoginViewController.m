@@ -1,21 +1,23 @@
 //
-//  ViewController.m
+//  CGRLoginViewController.m
 //  Challenger
 //
-//  Created by Sreenivas Appasani on 10/20/19.
+//  Created by Sreenivas Appasani on 11/10/19.
 //  Copyright © 2019 Sreenivas Appasani. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <Foundation/Foundation.h>
+
 #import "HomeViewController.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "CGRLoginViewController.h"
 
-@interface ViewController ()
+@interface CGRLoginViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CGRLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,6 +33,5 @@
         [self.navigationController pushViewController:controller animated:YES];
     }
 }
-
 
 @end

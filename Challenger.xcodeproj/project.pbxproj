@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4AF31A81235CE47A0003824E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31A80235CE47A0003824E /* AppDelegate.m */; };
 		4AF31A84235CE47A0003824E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31A83235CE47A0003824E /* ViewController.m */; };
-		4AF31A87235CE47A0003824E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31A85235CE47A0003824E /* Main.storyboard */; };
 		4AF31A89235CE47C0003824E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31A88235CE47C0003824E /* Assets.xcassets */; };
 		4AF31A8C235CE47C0003824E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31A8A235CE47C0003824E /* LaunchScreen.storyboard */; };
 		4AF31A8F235CE47C0003824E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31A8E235CE47C0003824E /* main.m */; };
@@ -17,6 +16,12 @@
 		4AF31AA4235CE47C0003824E /* ChallengerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31AA3235CE47C0003824E /* ChallengerUITests.m */; };
 		4AF31AC7235D6F220003824E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF31AC6235D6F220003824E /* FBSDKCoreKit.framework */; };
 		4AF31AC9235D6F260003824E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF31AC8235D6F260003824E /* FBSDKLoginKit.framework */; };
+		4AF31ACB236F49480003824E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31ACA236F49480003824E /* Home.storyboard */; };
+		4AF31ACD237267F70003824E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31ACC237267F70003824E /* HomeViewController.m */; };
+		4AF31AD22378C23A0003824E /* CGECollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31AD12378C23A0003824E /* CGECollectionViewCell.m */; };
+		4AF31AD52378CDD10003824E /* CGECollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */; };
+		4AF31AD72378DEB60003824E /* CGRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31AD62378DEB60003824E /* CGRLoginViewController.m */; };
+		4AF31ADA2378E8AC0003824E /* CGRLogin_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +47,6 @@
 		4AF31A80235CE47A0003824E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4AF31A82235CE47A0003824E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4AF31A83235CE47A0003824E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4AF31A86235CE47A0003824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AF31A88235CE47C0003824E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF31A8B235CE47C0003824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AF31A8D235CE47C0003824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 		4AF31AA5235CE47C0003824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AF31AC6235D6F220003824E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF31AC8235D6F260003824E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF31ACA236F49480003824E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4AF31ACC237267F70003824E /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4AF31ACE237268090003824E /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4AF31AD12378C23A0003824E /* CGECollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGECollectionViewCell.m; sourceTree = "<group>"; };
+		4AF31AD32378C24F0003824E /* CGECollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGECollectionViewCell.h; sourceTree = "<group>"; };
+		4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CGECollectionViewCell.xib; sourceTree = "<group>"; };
+		4AF31AD62378DEB60003824E /* CGRLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGRLoginViewController.m; sourceTree = "<group>"; };
+		4AF31AD82378DEC60003824E /* CGRLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGRLoginViewController.h; sourceTree = "<group>"; };
+		4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CGRLogin_Storyboard.storyboard; sourceTree = "<group>"; };
 		8F26AD8986BEB74B2602F6BF /* Pods-Challenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenger.debug.xcconfig"; path = "Target Support Files/Pods-Challenger/Pods-Challenger.debug.xcconfig"; sourceTree = "<group>"; };
 		96E942A59849629B67619053 /* Pods-Challenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenger.release.xcconfig"; path = "Target Support Files/Pods-Challenger/Pods-Challenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,11 +128,19 @@
 				4AF31A80235CE47A0003824E /* AppDelegate.m */,
 				4AF31A82235CE47A0003824E /* ViewController.h */,
 				4AF31A83235CE47A0003824E /* ViewController.m */,
-				4AF31A85235CE47A0003824E /* Main.storyboard */,
 				4AF31A88235CE47C0003824E /* Assets.xcassets */,
 				4AF31A8A235CE47C0003824E /* LaunchScreen.storyboard */,
 				4AF31A8D235CE47C0003824E /* Info.plist */,
 				4AF31A8E235CE47C0003824E /* main.m */,
+				4AF31ACA236F49480003824E /* Home.storyboard */,
+				4AF31ACC237267F70003824E /* HomeViewController.m */,
+				4AF31ACE237268090003824E /* HomeViewController.h */,
+				4AF31AD12378C23A0003824E /* CGECollectionViewCell.m */,
+				4AF31AD32378C24F0003824E /* CGECollectionViewCell.h */,
+				4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */,
+				4AF31AD62378DEB60003824E /* CGRLoginViewController.m */,
+				4AF31AD82378DEC60003824E /* CGRLoginViewController.h */,
+				4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */,
 			);
 			path = Challenger;
 			sourceTree = "<group>";
@@ -265,9 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF31ADA2378E8AC0003824E /* CGRLogin_Storyboard.storyboard in Resources */,
 				4AF31A8C235CE47C0003824E /* LaunchScreen.storyboard in Resources */,
+				4AF31AD52378CDD10003824E /* CGECollectionViewCell.xib in Resources */,
 				4AF31A89235CE47C0003824E /* Assets.xcassets in Resources */,
-				4AF31A87235CE47A0003824E /* Main.storyboard in Resources */,
+				4AF31ACB236F49480003824E /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +359,10 @@
 			files = (
 				4AF31A84235CE47A0003824E /* ViewController.m in Sources */,
 				4AF31A8F235CE47C0003824E /* main.m in Sources */,
+				4AF31AD22378C23A0003824E /* CGECollectionViewCell.m in Sources */,
 				4AF31A81235CE47A0003824E /* AppDelegate.m in Sources */,
+				4AF31ACD237267F70003824E /* HomeViewController.m in Sources */,
+				4AF31AD72378DEB60003824E /* CGRLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,14 +398,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4AF31A85235CE47A0003824E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AF31A86235CE47A0003824E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4AF31A8A235CE47C0003824E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CGRLoginViewController.h"
+#import "HomeViewController.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 @interface AppDelegate ()
@@ -20,7 +22,30 @@
 //   Lets facebook SDK handle results from the native Facebook app when performing a Login or Share action.
     [[FBSDKApplicationDelegate sharedInstance] application:application
                              didFinishLaunchingWithOptions:launchOptions];
+//    CGRLoginViewController *masterViewController = [[CGRLoginViewController alloc] initWithNibName:nil bundle:nil];
+//    self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
     
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"CGRLogin_Storyboard" bundle:[NSBundle mainBundle]];
+    CGRLoginViewController *vc = [storyboard instantiateInitialViewController];
+    
+    // Set root view controller and make windows visible
+    
+    if ([FBSDKAccessToken currentAccessToken]) {
+        // User is logged in, do work such as go to next view controller.
+        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
+        HomeViewController* controller = [storyboard instantiateViewControllerWithIdentifier:@"HomeViewSB"];
+        [self.navigationController pushViewController:controller animated:YES];
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
+        self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+        self.window.rootViewController = controller;
+        [self.window makeKeyAndVisible];
+    } else {
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+        self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+        self.window.rootViewController = vc;
+        [self.window makeKeyAndVisible];
+    }
+
     // Override point for customization after application launch.
     return YES;
 }
