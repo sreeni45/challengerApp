@@ -1,10 +1,12 @@
 //
-//  AppDelegate.m
+//  AppDelegate.swift
 //  Challenger
 //
-//  Created by Sreenivas Appasani on 10/20/19.
+//  Created by Sreeni Appasani on 12/1/19.
 //  Copyright © 2019 Sreenivas Appasani. All rights reserved.
 //
+
+import Foundation
 
 #import "AppDelegate.h"
 #import "CGRLoginViewController.h"
@@ -40,10 +42,9 @@
         self.window.rootViewController = controller;
         [self.window makeKeyAndVisible];
     } else {
-//        [self.navigationController pushViewController:vc animated:YES];
         self.navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
         self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-        self.window.rootViewController = self.navigationController;
+        self.window.rootViewController = vc;
         [self.window makeKeyAndVisible];
     }
 

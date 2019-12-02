@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4AF31A81235CE47A0003824E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31A80235CE47A0003824E /* AppDelegate.m */; };
-		4AF31A84235CE47A0003824E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31A83235CE47A0003824E /* ViewController.m */; };
 		4AF31A89235CE47C0003824E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31A88235CE47C0003824E /* Assets.xcassets */; };
 		4AF31A8C235CE47C0003824E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31A8A235CE47C0003824E /* LaunchScreen.storyboard */; };
 		4AF31A8F235CE47C0003824E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31A8E235CE47C0003824E /* main.m */; };
@@ -17,11 +16,11 @@
 		4AF31AC7235D6F220003824E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF31AC6235D6F220003824E /* FBSDKCoreKit.framework */; };
 		4AF31AC9235D6F260003824E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF31AC8235D6F260003824E /* FBSDKLoginKit.framework */; };
 		4AF31ACB236F49480003824E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31ACA236F49480003824E /* Home.storyboard */; };
-		4AF31ACD237267F70003824E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31ACC237267F70003824E /* HomeViewController.m */; };
-		4AF31AD22378C23A0003824E /* CGECollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31AD12378C23A0003824E /* CGECollectionViewCell.m */; };
 		4AF31AD52378CDD10003824E /* CGECollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */; };
-		4AF31AD72378DEB60003824E /* CGRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF31AD62378DEB60003824E /* CGRLoginViewController.m */; };
 		4AF31ADA2378E8AC0003824E /* CGRLogin_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */; };
+		E2A2AF4B239429F000FC3DB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */; };
+		E2A2AF4D23943E1900FC3DB6 /* CGECollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */; };
+		E2A2AF4F2394409700FC3DB6 /* CGRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +44,6 @@
 		4AF31A7C235CE47A0003824E /* Challenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF31A7F235CE47A0003824E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AF31A80235CE47A0003824E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4AF31A82235CE47A0003824E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4AF31A83235CE47A0003824E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4AF31A88235CE47C0003824E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF31A8B235CE47C0003824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AF31A8D235CE47C0003824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,16 +57,14 @@
 		4AF31AC6235D6F220003824E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF31AC8235D6F260003824E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF31ACA236F49480003824E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		4AF31ACC237267F70003824E /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		4AF31ACE237268090003824E /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		4AF31AD12378C23A0003824E /* CGECollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGECollectionViewCell.m; sourceTree = "<group>"; };
-		4AF31AD32378C24F0003824E /* CGECollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGECollectionViewCell.h; sourceTree = "<group>"; };
 		4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CGECollectionViewCell.xib; sourceTree = "<group>"; };
-		4AF31AD62378DEB60003824E /* CGRLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGRLoginViewController.m; sourceTree = "<group>"; };
-		4AF31AD82378DEC60003824E /* CGRLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGRLoginViewController.h; sourceTree = "<group>"; };
 		4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CGRLogin_Storyboard.storyboard; sourceTree = "<group>"; };
 		8F26AD8986BEB74B2602F6BF /* Pods-Challenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenger.debug.xcconfig"; path = "Target Support Files/Pods-Challenger/Pods-Challenger.debug.xcconfig"; sourceTree = "<group>"; };
 		96E942A59849629B67619053 /* Pods-Challenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenger.release.xcconfig"; path = "Target Support Files/Pods-Challenger/Pods-Challenger.release.xcconfig"; sourceTree = "<group>"; };
+		E2A2AF49239429F000FC3DB6 /* Challenger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Challenger-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGECollectionViewCell.swift; sourceTree = "<group>"; };
+		E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,21 +121,17 @@
 			children = (
 				4AF31A7F235CE47A0003824E /* AppDelegate.h */,
 				4AF31A80235CE47A0003824E /* AppDelegate.m */,
-				4AF31A82235CE47A0003824E /* ViewController.h */,
-				4AF31A83235CE47A0003824E /* ViewController.m */,
 				4AF31A88235CE47C0003824E /* Assets.xcassets */,
 				4AF31A8A235CE47C0003824E /* LaunchScreen.storyboard */,
 				4AF31A8D235CE47C0003824E /* Info.plist */,
 				4AF31A8E235CE47C0003824E /* main.m */,
 				4AF31ACA236F49480003824E /* Home.storyboard */,
-				4AF31ACC237267F70003824E /* HomeViewController.m */,
-				4AF31ACE237268090003824E /* HomeViewController.h */,
-				4AF31AD12378C23A0003824E /* CGECollectionViewCell.m */,
-				4AF31AD32378C24F0003824E /* CGECollectionViewCell.h */,
+				E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */,
 				4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */,
-				4AF31AD62378DEB60003824E /* CGRLoginViewController.m */,
-				4AF31AD82378DEC60003824E /* CGRLoginViewController.h */,
+				E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */,
 				4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */,
+				E2A2AF49239429F000FC3DB6 /* Challenger-Bridging-Header.h */,
+				E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */,
 			);
 			path = Challenger;
 			sourceTree = "<group>";
@@ -250,6 +241,7 @@
 				TargetAttributes = {
 					4AF31A7B235CE47A0003824E = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1120;
 					};
 					4AF31A93235CE47C0003824E = {
 						CreatedOnToolsVersion = 10.3;
@@ -357,12 +349,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF31A84235CE47A0003824E /* ViewController.m in Sources */,
+				E2A2AF4D23943E1900FC3DB6 /* CGECollectionViewCell.swift in Sources */,
+				E2A2AF4F2394409700FC3DB6 /* CGRLoginViewController.swift in Sources */,
 				4AF31A8F235CE47C0003824E /* main.m in Sources */,
-				4AF31AD22378C23A0003824E /* CGECollectionViewCell.m in Sources */,
 				4AF31A81235CE47A0003824E /* AppDelegate.m in Sources */,
-				4AF31ACD237267F70003824E /* HomeViewController.m in Sources */,
-				4AF31AD72378DEB60003824E /* CGRLoginViewController.m in Sources */,
+				E2A2AF4B239429F000FC3DB6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,8 +517,9 @@
 			baseConfigurationReference = 8F26AD8986BEB74B2602F6BF /* Pods-Challenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NCUHR8A5QG;
+				DEVELOPMENT_TEAM = M3F3S44J3D;
 				INFOPLIST_FILE = Challenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,6 +528,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = challenge.Challenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Challenger/Challenger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -545,8 +540,9 @@
 			baseConfigurationReference = 96E942A59849629B67619053 /* Pods-Challenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NCUHR8A5QG;
+				DEVELOPMENT_TEAM = M3F3S44J3D;
 				INFOPLIST_FILE = Challenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -555,6 +551,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = challenge.Challenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Challenger/Challenger-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -562,6 +560,7 @@
 		4AF31AAC235CE47C0003824E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCUHR8A5QG;
@@ -581,6 +580,7 @@
 		4AF31AAD235CE47C0003824E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCUHR8A5QG;
@@ -600,6 +600,7 @@
 		4AF31AAF235CE47C0003824E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCUHR8A5QG;
 				INFOPLIST_FILE = ChallengerUITests/Info.plist;
@@ -618,6 +619,7 @@
 		4AF31AB0235CE47C0003824E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCUHR8A5QG;
 				INFOPLIST_FILE = ChallengerUITests/Info.plist;
