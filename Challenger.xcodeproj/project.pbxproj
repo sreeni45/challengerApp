@@ -18,9 +18,12 @@
 		4AF31ACB236F49480003824E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31ACA236F49480003824E /* Home.storyboard */; };
 		4AF31AD52378CDD10003824E /* CGECollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */; };
 		4AF31ADA2378E8AC0003824E /* CGRLogin_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */; };
+		A92B8E598A4A0385070BB432 /* Pods_Challenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD4DA96D08C415956DB52BF /* Pods_Challenger.framework */; };
 		E2A2AF4B239429F000FC3DB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */; };
 		E2A2AF4D23943E1900FC3DB6 /* CGECollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */; };
 		E2A2AF4F2394409700FC3DB6 /* CGRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */; };
+		E2A82E8023BBF59000DB2960 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A82E7F23BBF59000DB2960 /* Challenge.swift */; };
+		E2F7F1C323BB0FC5002311E7 /* CGRUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7F1C223BB0FC4002311E7 /* CGRUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGECollectionViewCell.swift; sourceTree = "<group>"; };
 		E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRLoginViewController.swift; sourceTree = "<group>"; };
+		E2A82E7F23BBF59000DB2960 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		E2F7F1C223BB0FC4002311E7 /* CGRUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRUtils.swift; sourceTree = "<group>"; };
+		EDD4DA96D08C415956DB52BF /* Pods_Challenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Challenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 			files = (
 				4AF31AC9235D6F260003824E /* FBSDKLoginKit.framework in Frameworks */,
 				4AF31AC7235D6F220003824E /* FBSDKCoreKit.framework in Frameworks */,
+				A92B8E598A4A0385070BB432 /* Pods_Challenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +126,7 @@
 		4AF31A7E235CE47A0003824E /* Challenger */ = {
 			isa = PBXGroup;
 			children = (
+				E282635C23C2AA35001BCD41 /* Models */,
 				4AF31A7F235CE47A0003824E /* AppDelegate.h */,
 				4AF31A80235CE47A0003824E /* AppDelegate.m */,
 				4AF31A88235CE47C0003824E /* Assets.xcassets */,
@@ -132,6 +140,7 @@
 				4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */,
 				E2A2AF49239429F000FC3DB6 /* Challenger-Bridging-Header.h */,
 				E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */,
+				E2F7F1C223BB0FC4002311E7 /* CGRUtils.swift */,
 			);
 			path = Challenger;
 			sourceTree = "<group>";
@@ -159,6 +168,7 @@
 			children = (
 				4AF31AC8235D6F260003824E /* FBSDKLoginKit.framework */,
 				4AF31AC6235D6F220003824E /* FBSDKCoreKit.framework */,
+				EDD4DA96D08C415956DB52BF /* Pods_Challenger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,6 +180,14 @@
 				96E942A59849629B67619053 /* Pods-Challenger.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E282635C23C2AA35001BCD41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2A82E7F23BBF59000DB2960 /* Challenge.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,9 +369,11 @@
 			files = (
 				E2A2AF4D23943E1900FC3DB6 /* CGECollectionViewCell.swift in Sources */,
 				E2A2AF4F2394409700FC3DB6 /* CGRLoginViewController.swift in Sources */,
+				E2F7F1C323BB0FC5002311E7 /* CGRUtils.swift in Sources */,
 				4AF31A8F235CE47C0003824E /* main.m in Sources */,
 				4AF31A81235CE47A0003824E /* AppDelegate.m in Sources */,
 				E2A2AF4B239429F000FC3DB6 /* HomeViewController.swift in Sources */,
+				E2A82E8023BBF59000DB2960 /* Challenge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

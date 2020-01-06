@@ -8,16 +8,23 @@
 
 import Foundation
 import UIKit
+import Alamofire
 
 class HomeViewController : UIViewController, UICollectionViewDataSource {
     @IBOutlet weak var challengeCV: UICollectionView!
     
-    private var challenges: [String] = []
+    private var challenges: [Any] = []
 
     override func viewDidLoad() {
-        challenges = ["foo", "bar", "boo"]
+        Challenge.getChallenges { challengesArr in
+            self.challenges = challengesArr
+//            self.tableView.reloadData()
+            DispatchQueue.main.async {
+                self.challengeCV.reloadData()
+            }
+        }
+//        challenges = ["foo", "bar", "boo"]
         challengeCV.dataSource = self
-
     }
 
     static var collectionViewNibMyCellloaded = false
