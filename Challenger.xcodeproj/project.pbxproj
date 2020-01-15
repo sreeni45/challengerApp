@@ -19,6 +19,10 @@
 		4AF31AD52378CDD10003824E /* CGECollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */; };
 		4AF31ADA2378E8AC0003824E /* CGRLogin_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */; };
 		A92B8E598A4A0385070BB432 /* Pods_Challenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD4DA96D08C415956DB52BF /* Pods_Challenger.framework */; };
+		E26515C023CABF5E0000E053 /* ChallengeTextCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E26515BF23CABF5E0000E053 /* ChallengeTextCommentCell.xib */; };
+		E26515C223CABF9D0000E053 /* ChallengeTextCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26515C123CABF9D0000E053 /* ChallengeTextCommentView.swift */; };
+		E271D5BB23C8C5CA004FAC36 /* ChallengeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271D5BA23C8C5CA004FAC36 /* ChallengeHeaderView.swift */; };
+		E282636023C38C99001BCD41 /* ChallengeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E282635F23C38C99001BCD41 /* ChallengeHeaderView.xib */; };
 		E2A2AF4B239429F000FC3DB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */; };
 		E2A2AF4D23943E1900FC3DB6 /* CGECollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */; };
 		E2A2AF4F2394409700FC3DB6 /* CGRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */; };
@@ -64,6 +68,10 @@
 		4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CGRLogin_Storyboard.storyboard; sourceTree = "<group>"; };
 		8F26AD8986BEB74B2602F6BF /* Pods-Challenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenger.debug.xcconfig"; path = "Target Support Files/Pods-Challenger/Pods-Challenger.debug.xcconfig"; sourceTree = "<group>"; };
 		96E942A59849629B67619053 /* Pods-Challenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenger.release.xcconfig"; path = "Target Support Files/Pods-Challenger/Pods-Challenger.release.xcconfig"; sourceTree = "<group>"; };
+		E26515BF23CABF5E0000E053 /* ChallengeTextCommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChallengeTextCommentCell.xib; sourceTree = "<group>"; };
+		E26515C123CABF9D0000E053 /* ChallengeTextCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTextCommentView.swift; sourceTree = "<group>"; };
+		E271D5BA23C8C5CA004FAC36 /* ChallengeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeHeaderView.swift; sourceTree = "<group>"; };
+		E282635F23C38C99001BCD41 /* ChallengeHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChallengeHeaderView.xib; sourceTree = "<group>"; };
 		E2A2AF49239429F000FC3DB6 /* Challenger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Challenger-Bridging-Header.h"; sourceTree = "<group>"; };
 		E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGECollectionViewCell.swift; sourceTree = "<group>"; };
@@ -126,20 +134,16 @@
 		4AF31A7E235CE47A0003824E /* Challenger */ = {
 			isa = PBXGroup;
 			children = (
+				E26515BE23CABF310000E053 /* Controllers */,
+				E26515BD23CABF080000E053 /* Storyboards */,
+				E26515BC23CABEE80000E053 /* Views */,
 				E282635C23C2AA35001BCD41 /* Models */,
 				4AF31A7F235CE47A0003824E /* AppDelegate.h */,
 				4AF31A80235CE47A0003824E /* AppDelegate.m */,
 				4AF31A88235CE47C0003824E /* Assets.xcassets */,
-				4AF31A8A235CE47C0003824E /* LaunchScreen.storyboard */,
 				4AF31A8D235CE47C0003824E /* Info.plist */,
 				4AF31A8E235CE47C0003824E /* main.m */,
-				4AF31ACA236F49480003824E /* Home.storyboard */,
-				E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */,
-				4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */,
-				E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */,
-				4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */,
 				E2A2AF49239429F000FC3DB6 /* Challenger-Bridging-Header.h */,
-				E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */,
 				E2F7F1C223BB0FC4002311E7 /* CGRUtils.swift */,
 			);
 			path = Challenger;
@@ -180,6 +184,38 @@
 				96E942A59849629B67619053 /* Pods-Challenger.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E26515BC23CABEE80000E053 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E282635F23C38C99001BCD41 /* ChallengeHeaderView.xib */,
+				4AF31AD42378CDD10003824E /* CGECollectionViewCell.xib */,
+				E26515BF23CABF5E0000E053 /* ChallengeTextCommentCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E26515BD23CABF080000E053 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4AF31ACA236F49480003824E /* Home.storyboard */,
+				4AF31A8A235CE47C0003824E /* LaunchScreen.storyboard */,
+				4AF31AD92378E8AC0003824E /* CGRLogin_Storyboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E26515BE23CABF310000E053 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2A2AF4E2394409700FC3DB6 /* CGRLoginViewController.swift */,
+				E2A2AF4A239429F000FC3DB6 /* HomeViewController.swift */,
+				E271D5BA23C8C5CA004FAC36 /* ChallengeHeaderView.swift */,
+				E2A2AF4C23943E1900FC3DB6 /* CGECollectionViewCell.swift */,
+				E26515C123CABF9D0000E053 /* ChallengeTextCommentView.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		E282635C23C2AA35001BCD41 /* Models */ = {
@@ -297,8 +333,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF31ADA2378E8AC0003824E /* CGRLogin_Storyboard.storyboard in Resources */,
+				E26515C023CABF5E0000E053 /* ChallengeTextCommentCell.xib in Resources */,
 				4AF31A8C235CE47C0003824E /* LaunchScreen.storyboard in Resources */,
 				4AF31AD52378CDD10003824E /* CGECollectionViewCell.xib in Resources */,
+				E282636023C38C99001BCD41 /* ChallengeHeaderView.xib in Resources */,
 				4AF31A89235CE47C0003824E /* Assets.xcassets in Resources */,
 				4AF31ACB236F49480003824E /* Home.storyboard in Resources */,
 			);
@@ -369,7 +407,9 @@
 			files = (
 				E2A2AF4D23943E1900FC3DB6 /* CGECollectionViewCell.swift in Sources */,
 				E2A2AF4F2394409700FC3DB6 /* CGRLoginViewController.swift in Sources */,
+				E26515C223CABF9D0000E053 /* ChallengeTextCommentView.swift in Sources */,
 				E2F7F1C323BB0FC5002311E7 /* CGRUtils.swift in Sources */,
+				E271D5BB23C8C5CA004FAC36 /* ChallengeHeaderView.swift in Sources */,
 				4AF31A8F235CE47C0003824E /* main.m in Sources */,
 				4AF31A81235CE47A0003824E /* AppDelegate.m in Sources */,
 				E2A2AF4B239429F000FC3DB6 /* HomeViewController.swift in Sources */,

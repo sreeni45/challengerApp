@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,20 +36,29 @@
                                     <outlet property="dataSource" destination="1lQ-GU-TKK" id="o6f-dT-etn"/>
                                 </connections>
                             </collectionView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="7BP-VL-1UQ">
+                                <rect key="frame" x="20" y="322" width="374" height="530"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="7BP-VL-1UQ" firstAttribute="trailing" secondItem="pPt-JS-lor" secondAttribute="trailing" id="LQ3-fe-NLC"/>
                             <constraint firstItem="nwb-zj-66h" firstAttribute="top" secondItem="wdo-Gp-cMo" secondAttribute="top" constant="50" id="R6n-g7-2yC"/>
                             <constraint firstItem="wdo-Gp-cMo" firstAttribute="trailing" secondItem="pPt-JS-lor" secondAttribute="trailing" constant="20" id="SYB-71-DdE"/>
                             <constraint firstItem="wdo-Gp-cMo" firstAttribute="bottom" secondItem="pPt-JS-lor" secondAttribute="bottom" constant="550" id="ToY-En-9ak"/>
                             <constraint firstItem="pPt-JS-lor" firstAttribute="leading" secondItem="nwb-zj-66h" secondAttribute="leading" id="d6T-22-Pig"/>
+                            <constraint firstItem="wdo-Gp-cMo" firstAttribute="bottom" secondItem="7BP-VL-1UQ" secondAttribute="bottom" constant="10" id="ecj-ti-J0n"/>
+                            <constraint firstItem="7BP-VL-1UQ" firstAttribute="top" secondItem="pPt-JS-lor" secondAttribute="bottom" constant="10" id="hGz-k6-cmw"/>
+                            <constraint firstItem="7BP-VL-1UQ" firstAttribute="leading" secondItem="pPt-JS-lor" secondAttribute="leading" id="nPv-VS-28f"/>
                             <constraint firstItem="pPt-JS-lor" firstAttribute="top" secondItem="nwb-zj-66h" secondAttribute="bottom" constant="10" id="tvb-ea-kwG"/>
                             <constraint firstItem="nwb-zj-66h" firstAttribute="leading" secondItem="wdo-Gp-cMo" secondAttribute="leading" constant="20" id="xhQ-NR-0k4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wdo-Gp-cMo"/>
                     </view>
                     <connections>
-                        <outlet property="challengeCV" destination="pPt-JS-lor" id="wNC-7P-LnI"/>
+                        <outlet property="challengeTV" destination="7BP-VL-1UQ" id="7Fh-aL-BHD"/>
+                        <outlet property="challengesCV" destination="pPt-JS-lor" id="i91-qL-Bhk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jMK-zB-cXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
